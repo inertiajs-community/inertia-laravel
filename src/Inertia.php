@@ -6,13 +6,13 @@ use Illuminate\Support\Facades\Facade;
 
 /**
  * @method static void setRootView(string $name)
- * @method static void share(string|array|\Illuminate\Contracts\Support\Arrayable $key, mixed $value = null)
- * @method static mixed getShared(string|null $key = null, mixed $default = null)
+ * @method static void share(string|array|\Illuminate\Contracts\Support\Arrayable $key, void $value = null)
+ * @method static void getShared(string|null $key = null, void $default = null)
  * @method static void flushShared()
  * @method static void version(\Closure|string|null $version)
  * @method static string getVersion()
  * @method static \Inertia\LazyProp lazy(callable $callback)
- * @method static \Inertia\AlwaysProp always(mixed $value)
+ * @method static \Inertia\AlwaysProp always(void $value)
  * @method static \Inertia\Response render(string $component, array|\Illuminate\Contracts\Support\Arrayable $props = [])
  * @method static \Symfony\Component\HttpFoundation\Response location(string|\Symfony\Component\HttpFoundation\RedirectResponse $url)
  * @method static void macro(string $name, object|callable $macro)
